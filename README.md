@@ -27,7 +27,8 @@
 
 | Year | Topics | Link |
 | :---: | :--- | :---: |
-| **2024** | Networking, Wireshark, ARP, Linux, Local Network Investigation | [Open Journal](./Journal/README.md) |
+| **2024** | Networking, Wireshark, ARP, Linux, Local Network Investigation | [Open Journal](./Journal/ARP/README.md) |
+| **2024** | DNS Resolution, VPN Behavior, ISP DNS Manipulation, nslookup Investigation, Cloudflare DNS Testing | [Open Journal](./Journal/DNS/README.md) |
 
 </div>
 
