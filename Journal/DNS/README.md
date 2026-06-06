@@ -1,7 +1,6 @@
 [← Back to May Archive](/README.md)
 
 # One Website Refusing To Open Somehow Turned Into Me Discovering My ISP Was Quietly Lying Through DNS
-### 2024
 
 On that day I was trying to surf around internet with random websites, but some of the website simply refused to load.
 

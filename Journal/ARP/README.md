@@ -1,7 +1,6 @@
 [← Back to Archive](/README.md)
 
 # One Random Wireshark Session Somehow Turned Into Me Learning About ARP, MAC Addresses, MITM Attacks, Fake Networks And Packet Crafting
-### 2024
 
 On that day I randomly opened Wireshark while connected to my home Wi-Fi because I wanted to see what kind of packets were moving around inside my network. I didn't really have a proper goal. I was mostly just curious and wanted to observe random things and slowly understand how networking actually works underneath instead of only using the internet normally every day without thinking about what happens behind the scenes.
 
