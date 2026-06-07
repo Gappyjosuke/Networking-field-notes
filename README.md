@@ -30,6 +30,7 @@
 | Networking, Wireshark, ARP, Linux, Local Network Investigation | [Open Journal](./Journal/ARP/README.md) |
 | DNS Resolution, VPN Behavior, ISP DNS Manipulation, nslookup Investigation, Cloudflare DNS Testing | [Open Journal](./Journal/DNS/README.md) |
 |Ethernet, L2, MAC Address, Can Two Computers Communicate Without IP Addresses? | [Open Journal](./Journal/Ethernet_l2/README.md) |
+|Network Speed: Bits, Bytes, and Hardware Limits | [Open Journal](./Journal/Network_Speed/README.md) |
 
 </div>
 

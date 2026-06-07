@@ -317,3 +317,9 @@ when the real problem might actually be:
 That realization completely changed how I think about internet connectivity problems.
 
 ---
+
+[← Go to Previous Archive](/Journal/ARP/README.md)
+---
+
+[Go to Next Archive →](/Journal/Ethernet_l2/README.md)
+---

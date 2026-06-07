@@ -501,3 +501,11 @@ Understanding that distinction was the most valuable lesson from the entire thin
 - Wireshark can be used to observe Layer 2 communication directly.
 - IP and Ethernet solve different problems.
 - Understanding networking becomes much easier when each layer is studied independently.
+
+---
+
+[← Go to Previous Archive](/Journal/DNS/README.md)
+---
+
+[Go to Next Archive →](/Journal/Network_Speed/README.md)
+---

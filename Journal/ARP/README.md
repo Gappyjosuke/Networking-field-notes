@@ -257,3 +257,12 @@ to:
     how do fake network environments even work?
 
 All of this somehow started from one repeated ARP packet inside Wireshark.
+
+
+---
+
+[← Back to Archive](/README.md)
+---
+
+[Go to Next Archive →](/Journal/DNS/README.md)
+---
