@@ -9,7 +9,7 @@
 
 This entire thing started from a simple question while working with Cisco Packet Tracer.
 
-Whenever networking i usually connect two computers together, the first thing we usually do is assign IP addresses.
+Whenever I set up a basic network, the first thing I usually do is assign IP addresses.
 
 >For example:
 
@@ -71,7 +71,7 @@ Before answering that question, it is important to identify exactly what is fail
 
 ## Why Ping Is Not Actually Testing Ethernet
 
-Most of us usually, tend to use ping as a generic network test.
+Most of us tend to use ping as a generic network stability test.
 
 The logic usually looks something like this:
 
@@ -87,7 +87,8 @@ Ping Fails  → Network Broken
 
 The problem is that ping is not actually an Ethernet protocol.
 
-like we already know Ping uses ICMP, 
+As we know, ping uses ICMP (Internet Control Message Protocol)
+
 ICMP depends on IP.
 
 IP itself depends on Ethernet.
@@ -328,7 +329,7 @@ The payload is the actual data carried by the Ethernet frame.
 For testing purposes the following message was used:
 
 ```text
-Vanakam daa mapla rocky la irundhu
+Vanakkam daa mapla rocky la irundhu
 ```
 
 Scapy requires the payload to be represented as bytes.
@@ -350,14 +351,17 @@ This is necessary because Ethernet transmits bytes rather than Python strings.
 Once the destination MAC, EtherType, and payload are available, they can be combined into a complete Ethernet frame.
 
 ```python
+
 from scapy.all import *
 
+# Constructing the Layer 2 Frame
 myframe = Ether(
-    dst="00:0c:29:a5:60:14",
-    type=0x1234
+    dst="00:0c:29:a5:60:14", # Windows 11 VM MAC
+    type=0x1234              # Custom EtherType
 ) / Raw(
-    load=b"vanakkam daa mapla rocky la irundhu "
+    load=b"vanakkam daa mapla rocky la irundhu" # Raw Byte Payload
 )
+
 ```
 
 At this stage nothing has been transmitted.
@@ -370,13 +374,13 @@ Think of it as filling out an envelope before placing it into a mailbox.
 
 ## Sending The Frame
 
-To actually transmit the frame:
+To actually transmit the frame we add this to our program:
 
 ```python
-sendp(
-    myframe,
-    iface="ens160"
-)
+
+# Sending at Layer 2 (p stands for packet/physical layer)
+sendp(myframe, iface="ens160")
+
 ```
 
 is used.
