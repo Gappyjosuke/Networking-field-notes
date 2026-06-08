@@ -180,3 +180,5 @@ Apply this logical sequence to isolate a new infrastructure issue.
 
 [← Go to Previous Archive](/Journal/Ethernet_l2/README.md)
 ---
+
+[Go to Next Archive →](/Journal/FiberOptics/README.md)
