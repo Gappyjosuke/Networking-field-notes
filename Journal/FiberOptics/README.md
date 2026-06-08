@@ -51,7 +51,7 @@ First I looked at the second guy's point about the money:
 
 Then I realized his premise was flawed because it assumed hackers buy their own high-speed data pipelines from ISPs. 
 
-They don't pay for anything. 
+But they don't pay for anything. 
 
 A botnet is made of thousands of compromised everyday devices—like smart TVs, home routers, and unpatched PCs owned by normal people. The hacker injects a silent script into those devices, and those devices scan the internet in the background. 
 
